@@ -6,28 +6,62 @@
 /**********************//**********************//**********************//**********************/
 
 @media (max-width: 321px) {
+    html {
+        background-position: initial;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+    }
     .oc {
         top: 150px;
     }
     .step,
     .complete {
-        width: 75%;
+        width: 85%;
         padding: 30px 15px;
     }
+    .step h1 {
+        font-size: 17px;
+    }
+    .step h3 {
+        padding: 0px 15px;
+        font-size: 14px;
+    }
+    .step label {
+        font-size: 13px;
+    }
+    .step input {
+        vertical-align: middle;
+    }
+    .step li span {
+        margin: 4px 0px;
+        vertical-align: middle;
+    }
     ul {
-        padding: 0px;
+        padding: 8px 0px;
+        margin: 0px 15px;
+        font-size: 13px;
     }
 }
 
 /**********************//**********************//**********************//**********************/
 
 @media (min-width: 322px) and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 17px;
+    }
     .oc {
         top: 150px;
     }
     .step,
     .complete {
-        width: 60%;
+        width: 70%;
         padding: 30px;
     }
     ul {
@@ -38,8 +72,14 @@
 /**********************//**********************//**********************//**********************/
 
 @media (min-width: 481px) and (max-width: 560px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 19px;
+    }
     .oc {
-        top: 120px;
+        top: 150px;
     }
     .step,
     .complete {
@@ -51,8 +91,14 @@
 /**********************//**********************//**********************//**********************/
 
 @media (min-width: 561px) and (max-width: 767px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 22px;
+    }
     .oc {
-        top: 120px;
+        top: 150px;
     }
     .step,
     .complete {
