@@ -13,9 +13,6 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background: url('../img/boatWake.jpg');
-  background-size: cover;
-  background-position: center;
 }
 body {
   margin: 0;
@@ -46,6 +43,9 @@ h3 {
 #wrapper {
   min-height: 100%;
   min-width: 100%;
+  background: url('../img/boatWake.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 #logo {
