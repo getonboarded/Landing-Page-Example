@@ -18,7 +18,7 @@
   <!-- Load Onboarded plugin -->
   <script src="./js/jquery-onboarded-0.0.8.min.js"></script>
 
-  <!-- Start Onboarded flow -->
+  <!-- Load then Start Onboarded Flow -->
   <script>jQuery( function () { Onboarded.load().startFlow(); } );</script>
 
 </head>
@@ -26,6 +26,8 @@
   <div id="wrapper">
     <h1 class="top"><a id="logo" href="http://www.getonboarded.com"></a></h1>
     <h1>Onboarded Example - Landing Page</h1>
+    <!-- Start Onboarded Flow Markup -->
+    <!-- Dont forget to swap data-onboarded-token with your own project token so you can log in to see your data and analytics ! -->
     <div class="oc" data-onboarded-token="jG94TRjAiBCrB18Fm9y5VA" style="display: none;">
       <div data-onboarded-flow="landing-page">
 
@@ -51,14 +53,6 @@
               <label>What is your favorite hobby?</label>
               <input data-name="Email" placeholder="(e.g. Cooking)" />
             </li>
-            <li>
-              <label>What is your favorite color?</label>
-              <select name="color">
-                <option>Blue</option>
-                <option>Red</option>
-                <option>Green</option>
-              </select>
-            </li>
           </ul>
           <button class="endSurvey" data-name="Finish Up" data-action-complete>Submit</button>
         </div>
@@ -67,7 +61,7 @@
 
       </div>
     </div>
-
+    <!-- End Onboarded Flow Markup -->
   </div>
 <script type="text/javascript">
   console.log("Onboarded Example - Landing Page");
